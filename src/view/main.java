@@ -12,10 +12,13 @@ public class main {
 		}
 		arvore.remove('F');
 		arvore.remove('U');
+		System.out.print("Pré-ordem: ");
 		arvore.prefixSearch();
 		System.out.println(" ");
+		System.out.print("Pós-ordem: ");
 		arvore.postfixSearch();
 		System.out.println(" ");
+		System.out.print("Em ordem: ");
 		arvore.infixSearch();
 	}
 }
